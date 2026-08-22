@@ -1,0 +1,46 @@
+------rating columns------
+
+Education
+Minimum: 1
+Maximum: 5
+Unique values: [1, 2, 3, 4, 5]
+
+EnvironmentSatisfaction
+Minimum: 1
+Maximum: 4
+Unique values: [1, 2, 3, 4]
+
+JobInvolvement
+Minimum: 1
+Maximum: 4
+Unique values: [1, 2, 3, 4]
+
+JobLevel
+Minimum: 1
+Maximum: 5
+Unique values: [1, 2, 3, 4, 5]
+
+JobSatisfaction
+Minimum: 1
+Maximum: 4
+Unique values: [1, 2, 3, 4]
+
+PerformanceRating
+Minimum: 3
+Maximum: 4
+Unique values: [3, 4]
+
+RelationshipSatisfaction
+Minimum: 1
+Maximum: 4
+Unique values: [1, 2, 3, 4]
+
+StockOptionLevel
+Minimum: 0
+Maximum: 3
+Unique values: [0, 1, 2, 3]
+
+WorkLifeBalance
+Minimum: 1
+Maximum: 4
+Unique values: [1, 2, 3, 4]
