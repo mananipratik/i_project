@@ -1,0 +1,58 @@
+---BusinessTravel---
+['Travel_Rarely' 'Travel_Frequently' 'Non-Travel']
+Department
+Research & Development    961
+Sales                     446
+Human Resources            63
+Name: count, dtype: int64
+
+---Department---
+['Sales' 'Research & Development' 'Human Resources']
+Department
+Research & Development    961
+Sales                     446
+Human Resources            63
+Name: count, dtype: int64
+
+---EducationField---
+['Life Sciences' 'Other' 'Medical' 'Marketing' 'Technical Degree'
+ 'Human Resources']
+Department
+Research & Development    961
+Sales                     446
+Human Resources            63
+Name: count, dtype: int64
+
+---Gender---
+['Female' 'Male']
+Department
+Research & Development    961
+Sales                     446
+Human Resources            63
+Name: count, dtype: int64
+
+---JobRole---
+['Sales Executive' 'Research Scientist' 'Laboratory Technician'
+ 'Manufacturing Director' 'Healthcare Representative' 'Manager'
+ 'Sales Representative' 'Research Director' 'Human Resources']
+Department
+Research & Development    961
+Sales                     446
+Human Resources            63
+Name: count, dtype: int64
+
+---MaritalStatus---
+['Single' 'Married' 'Divorced']
+Department
+Research & Development    961
+Sales                     446
+Human Resources            63
+Name: count, dtype: int64
+
+---OverTime---
+['Yes' 'No']
+Department
+Research & Development    961
+Sales                     446
+Human Resources            63
+Name: count, dtype: int64
