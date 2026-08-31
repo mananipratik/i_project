@@ -312,12 +312,11 @@ c5.metric("High Retention Opportunity", f"{high_opportunity:,}")
 # ============================================================
 # TABS
 # ============================================================
-tab1, tab2, tab3, tab4, tab5 = st.tabs(
+tab1, tab2, tab3, tab4 = st.tabs(
     [
         "🏠 Executive Overview",
         "👥 Workforce Analysis",
         "📈 Career Progression",
-        "🤖 Career Clusters",
         "🎯 Risk & Retention",
     ]
 )
@@ -526,76 +525,10 @@ with tab3:
             use_container_width=True,
         )
 
-
 # ============================================================
-# TAB 4 — CAREER CLUSTERS
+# TAB 4 — RISK & RETENTION
 # ============================================================
 with tab4:
-    st.subheader("Career Clusters")
-
-    if "CareerCluster" not in filtered.columns:
-        st.info(
-            "CareerCluster is not present. "
-            "Run Day 5 clustering and connect its output to Day 6."
-        )
-    else:
-        cluster_summary = (
-            filtered.groupby("CareerCluster", observed=True)
-            .agg(
-                Employees=("CareerCluster", "size"),
-                Avg_YearsAtCompany=("YearsAtCompany", "mean"),
-                Avg_YearsInCurrentRole=("YearsInCurrentRole", "mean"),
-                Avg_YearsSinceLastPromotion=(
-                    "YearsSinceLastPromotion",
-                    "mean",
-                ),
-                Avg_JobLevel=("JobLevel", "mean"),
-            )
-            .round(2)
-        )
-
-        st.dataframe(
-            cluster_summary,
-            use_container_width=True,
-        )
-
-        st.markdown("### Employees by Career Cluster")
-
-        cluster_counts = (
-            filtered["CareerCluster"]
-            .value_counts()
-            .sort_index()
-            .rename("Employees")
-        )
-        st.bar_chart(cluster_counts)
-
-        if "Attrition" in filtered.columns:
-            cluster_attrition = (
-                filtered.assign(
-                    AttritionFlag=(
-                        filtered["Attrition"]
-                        .astype(str)
-                        .str.strip()
-                        .eq("Yes")
-                    ).astype(int)
-                )
-                .groupby("CareerCluster", observed=True)[
-                    "AttritionFlag"
-                ]
-                .mean()
-                .mul(100)
-                .round(2)
-                .rename("Attrition Rate (%)")
-            )
-
-            st.markdown("### Attrition Rate by Career Cluster")
-            st.bar_chart(cluster_attrition)
-
-
-# ============================================================
-# TAB 5 — RISK & RETENTION
-# ============================================================
-with tab5:
     st.subheader("Risk & Retention")
 
     col1, col2 = st.columns(2)
