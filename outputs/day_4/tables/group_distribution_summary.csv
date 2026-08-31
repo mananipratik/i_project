@@ -1,0 +1,15 @@
+Feature,Category,Employee_Count,Percentage
+CareerStage,Established,448,30.48
+CareerStage,Developing,434,29.52
+CareerStage,Early Career,342,23.27
+CareerStage,Experienced,246,16.73
+PromotionGapGroup,Recent Promotion,938,63.81
+PromotionGapGroup,Moderate Gap,272,18.5
+PromotionGapGroup,Long Promotion Gap,260,17.69
+RoleDurationGroup,New in Role,673,45.78
+RoleDurationGroup,Long Time in Role,522,35.51
+RoleDurationGroup,Established,275,18.71
+TrainingGroup,Low Training,618,42.04
+TrainingGroup,Moderate Training,614,41.77
+TrainingGroup,High Training,184,12.52
+TrainingGroup,No Training,54,3.67

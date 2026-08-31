@@ -1,0 +1,11 @@
+Column,Lower_Bound,Upper_Bound,Invalid_Record_Count
+Attrition,0,1,0
+Education,1,5,0
+EnvironmentSatisfaction,1,4,0
+JobInvolvement,1,4,0
+JobLevel,1,5,0
+JobSatisfaction,1,4,0
+PerformanceRating,1,4,0
+RelationshipSatisfaction,1,4,0
+StockOptionLevel,0,3,0
+WorkLifeBalance,1,4,0

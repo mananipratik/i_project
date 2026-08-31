@@ -1,0 +1,5 @@
+Validation_Rule,Invalid_Record_Count
+YearsAtCompany > TotalWorkingYears,0
+YearsInCurrentRole > YearsAtCompany,0
+YearsSinceLastPromotion > YearsAtCompany,0
+YearsWithCurrManager > YearsAtCompany,0

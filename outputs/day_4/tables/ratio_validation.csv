@@ -1,0 +1,4 @@
+Feature,Missing_Count,Infinite_Count,Below_Zero_Count,Above_One_Count,Minimum,Maximum
+PromotionGapRatio,0,0,0,0,0.0,1.0
+RoleStagnationRatio,0,0,0,0,0.0,1.0
+ManagerStabilityRatio,0,0,0,0,0.0,1.0

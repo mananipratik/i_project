@@ -1,0 +1,5 @@
+CareerCluster,YearsAtCompany,YearsInCurrentRole,YearsSinceLastPromotion,YearsWithCurrManager,TotalWorkingYears,TrainingTimesLastYear,JobLevel,PromotionGapRatio,RoleStagnationRatio,ManagerStabilityRatio
+0,17.79,9.37,6.2,9.15,21.96,2.78,3.36,0.37,0.58,0.56
+1,1.73,0.46,0.22,0.19,7.6,3.01,1.66,0.08,0.14,0.04
+2,5.62,4.31,4.35,4.12,9.37,2.84,1.87,0.83,0.81,0.78
+3,5.79,3.8,0.59,3.85,9.71,2.71,1.84,0.11,0.64,0.66

@@ -1,0 +1,8 @@
+Column,Original_Unique,Normalized_Unique,Possible_Inconsistency
+BusinessTravel,3,3,False
+Department,3,3,False
+EducationField,6,6,False
+Gender,2,2,False
+JobRole,9,9,False
+MaritalStatus,3,3,False
+OverTime,2,2,False

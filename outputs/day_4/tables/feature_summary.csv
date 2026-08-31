@@ -1,0 +1,8 @@
+Feature,Type,Meaning
+PromotionGapRatio,Numerical Ratio,Promotion gap relative to company tenure
+RoleStagnationRatio,Numerical Ratio,Current-role tenure relative to company tenure
+ManagerStabilityRatio,Numerical Ratio,Current-manager tenure relative to company tenure
+CareerStage,Categorical Group,Employee career-stage group
+PromotionGapGroup,Categorical Group,Promotion-gap category
+RoleDurationGroup,Categorical Group,Current-role duration category
+TrainingGroup,Categorical Group,Training activity category

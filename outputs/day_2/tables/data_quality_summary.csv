@@ -1,0 +1,8 @@
+Check,Result
+Original Shape,"(1470, 31)"
+Final Shape,"(1470, 31)"
+Missing Values,0
+Duplicate Rows,0
+Constant Columns,None
+IQR Outlier Rows Removed,0
+YearsAtCompany > TotalWorkingYears,0

@@ -1,0 +1,10 @@
+Insight_Area,Key_Insight,Business_Implication
+Overall Attrition,Overall attrition rate is 16.12%.,Baseline for retention analysis.
+Department Attrition,Sales has the highest attrition rate at 20.63%.,Investigate department-specific retention factors.
+Job Role Attrition,Sales Representative has the highest attrition rate at 39.76%.,Potential retention-risk group.
+Job Level Attrition,Job Level 1.0 has the highest attrition rate at 26.34%.,Further retention analysis is recommended.
+Promotion Gap vs Attrition,2–3 Years has the highest attrition rate at 17.06%.,Association worth investigating.
+Role Duration vs Attrition,0–2 Years has the highest attrition rate at 22.59%.,May warrant career-progression analysis.
+Department Satisfaction,Human Resources has the lowest average job satisfaction.,Investigate employee-experience factors.
+Work-Life Balance,Research & Development has the lowest average work-life balance.,Investigate workload and flexibility factors.
+Correlation,JobLevel has the strongest numerical correlation with Attrition at -0.17.,"Correlation indicates association, not causation."
