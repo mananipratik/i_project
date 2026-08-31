@@ -312,12 +312,11 @@ c5.metric("High Retention Opportunity", f"{high_opportunity:,}")
 # ============================================================
 # TABS
 # ============================================================
-tab1, tab2, tab3, tab4, tab5 = st.tabs(
+tab1, tab2, tab3,tab5 = st.tabs(
     [
         "🏠 Executive Overview",
         "👥 Workforce Analysis",
         "📈 Career Progression",
-        "🤖 Career Clusters",
         "🎯 Risk & Retention",
     ]
 )
@@ -527,9 +526,9 @@ with tab3:
         )
 
 # ============================================================
-# TAB 5 — RISK & RETENTION
+# TAB 4 — RISK & RETENTION
 # ============================================================
-with tab5:
+with tab4:
     st.subheader("Risk & Retention")
 
     col1, col2 = st.columns(2)
