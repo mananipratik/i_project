@@ -92,32 +92,7 @@ The dataset contains employee-level HR information related to:
 
 ---
 
-# 🧠 Data Science Workflow
-
-The complete project follows this workflow:
-
-```text
-Raw Dataset
-     ↓
-Business Understanding
-     ↓
-Data Validation & Cleaning
-     ↓
-Exploratory Data Analysis
-     ↓
-Feature Engineering
-     ↓
-Career Path Clustering
-     ↓
-Promotion Gap Risk Analysis
-     ↓
-Retention Opportunity Analysis
-     ↓
-Streamlit Dashboard
-     ↓
-Business Recommendations
-
-📁 project structure
+# 📁 project structure
 i_project/
 │
 ├── .devcontainer/
@@ -148,3 +123,31 @@ i_project/
 ├── .gitattributes
 ├── README.md
 └── requirements.txt
+
+---
+
+# 🧠 Data Science Workflow
+
+The complete project follows this workflow:
+
+```text
+Raw Dataset
+     ↓
+Business Understanding
+     ↓
+Data Validation & Cleaning
+     ↓
+Exploratory Data Analysis
+     ↓
+Feature Engineering
+     ↓
+Career Path Clustering
+     ↓
+Promotion Gap Risk Analysis
+     ↓
+Retention Opportunity Analysis
+     ↓
+Streamlit Dashboard
+     ↓
+Business Recommendations
+
