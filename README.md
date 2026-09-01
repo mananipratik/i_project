@@ -92,40 +92,6 @@ The dataset contains employee-level HR information related to:
 
 ---
 
-# 📁 project structure
-`i_project/
-│
-├── .devcontainer/
-│
-├── dashboard/
-│   └── dashboard/
-│       ├── ...
-│       ├── outputs/
-│       ├── README_DAY7.md
-│       └── requirements.txt
-│
-├── data/
-│   ├── cleaned/
-│   ├── clustering/
-│   ├── feature_engineered/
-│   ├── Palo Alto Networks.csv
-│   ├── feature_engineered_palo_alto.csv
-│   └── hr_career_risk_analysis.csv
-│
-├── nb/
-│   ├── ...
-│   └── your Day 1–6 notebooks
-│
-├── outputs/
-│   ├── ...
-│   └── reports / tables / figures
-│
-├── .gitattributes
-├── README.md
-└── requirements.txt`
-
----
-
 # 🧠 Data Science Workflow
 
 The complete project follows this workflow:
