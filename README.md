@@ -93,7 +93,7 @@ The dataset contains employee-level HR information related to:
 ---
 
 # 📁 project structure
-i_project/
+`i_project/
 │
 ├── .devcontainer/
 │
@@ -122,7 +122,7 @@ i_project/
 │
 ├── .gitattributes
 ├── README.md
-└── requirements.txt
+└── requirements.txt`
 
 ---
 
