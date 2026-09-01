@@ -1,0 +1,18 @@
+# Core Python Data Science
+pandas
+numpy
+
+# Data Visualization
+matplotlib
+seaborn
+plotly
+
+# Machine Learning & Statistics
+scikit-learn
+scipy
+
+# Dashboard
+streamlit
+
+# Model/Data Saving
+joblib
