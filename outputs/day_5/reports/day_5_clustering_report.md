@@ -1,4 +1,4 @@
-# Day 5 — Career Path Clustering Report
+# Career Path Clustering Report
 
 Input dataset: ../data/feature_engineered/Palo Alto Networks_feature_engineered.csv
 

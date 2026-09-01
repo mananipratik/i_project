@@ -1,0 +1,10 @@
+JobRole,Employee_Count,High_Risk_Count,High_Risk_Percentage
+Healthcare Representative,131,1,0.76
+Human Resources,52,0,0.0
+Laboratory Technician,259,0,0.0
+Manager,102,1,0.98
+Manufacturing Director,145,2,1.38
+Research Director,80,1,1.25
+Research Scientist,292,1,0.34
+Sales Executive,326,4,1.23
+Sales Representative,83,0,0.0

@@ -1,4 +1,4 @@
-# Day 2 Data Quality Report
+# Data Quality Report
 
 Original shape: (1470, 31)
 

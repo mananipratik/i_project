@@ -1,4 +1,4 @@
-# Day 4 — Feature Engineering Report
+# Feature Engineering Report
 
 ## Input
 ../data/cleaned/Palo Alto Networks_cleaned.csv
